@@ -1,0 +1,78 @@
+body{
+    background-color: #ffdee3;
+}
+img{
+    height: 350px;
+    width: 300px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    margin: 20px;
+}
+.container{
+    text-align: center;
+}
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    color: #C2185B;
+}
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 550px;
+    width: 390px;
+    border: 2px solid #B76E79;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF8E7;
+    box-shadow: 4px 4px 12px rgba(183, 110, 121, 0.5);
+    margin: 20px;
+    padding: 20px;
+}
+.location{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+}
+.date{
+    margin: 0px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 14px;
+    color: #333333;
+}
+.card-text{
+    font-family: 'Parisienne', cursive;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nextchapter{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #FF82A5;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Great Vibes', cursive;;
+}
+a:hover{
+    background-color: #FF3B5C;
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.3s ease; 
+}
